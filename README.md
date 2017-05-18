@@ -9,4 +9,4 @@
 （3）底部菜单的几种实现方式</br>
 
 ![image](https://github.com/foochane/CaiNiaoShop/blob/master/Screenshot/FragmentTabHost.png)
-![image](https://github.com/foochane/CaiNiaoShop/blob/master/Screenshot/FragmentTabHost.png)
+![image](https://github.com/foochane/CaiNiaoShop/blob/master/Screenshot/一个fragment.png)
