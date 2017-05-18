@@ -10,3 +10,35 @@
 
 ![image](https://github.com/foochane/CaiNiaoShop/blob/master/Screenshot/FragmentTabHost.png)
 ![image](https://github.com/foochane/CaiNiaoShop/blob/master/Screenshot/一个fragment.png)
+
+
+'''java
+public class MainActivity extends AppCompatActivity {
+
+    private LayoutInflater mInflater;
+
+    private FragmentTabHost mTabhost;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        mInflater = LayoutInflater.from(this);
+
+        mTabhost = (FragmentTabHost) this.findViewById(android.R.id.tabhost);
+        mTabhost.setup(this,getSupportFragmentManager(),R.id.realtabcontent); //不是tabcontent
+
+
+        View view = mInflater.inflate(R.layout.tab_indicator,null);
+        ImageView img = (ImageView) view.findViewById(R.id.icon_tab);
+        TextView text = (TextView) view.findViewById(R.id.txt_indicator);
+
+        img.setBackgroundResource(R.mipmap.icon_home);
+        text.setText("主页");
+
+        TabHost.TabSpec  tabSpec = mTabhost.newTabSpec("home");
+        tabSpec.setIndicator(view);
+        mTabhost.addTab(tabSpec , HomeFragment.class,null);
+    }
+}
