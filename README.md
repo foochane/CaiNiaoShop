@@ -12,7 +12,8 @@
 ![image](https://github.com/foochane/CaiNiaoShop/blob/master/Screenshot/一个fragment.png)
 
 
-'''java
+```
+```java
 public class MainActivity extends AppCompatActivity {
 
     private LayoutInflater mInflater;
