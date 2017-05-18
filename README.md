@@ -12,7 +12,7 @@
 ![image](https://github.com/foochane/CaiNiaoShop/blob/master/Screenshot/一个fragment.png)
 
 
-```
+
 ```java
 public class MainActivity extends AppCompatActivity {
 
@@ -43,3 +43,4 @@ public class MainActivity extends AppCompatActivity {
         mTabhost.addTab(tabSpec , HomeFragment.class,null);
     }
 }
+```
