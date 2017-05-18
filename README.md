@@ -7,3 +7,6 @@
     ③添加TabSpec</br>
 （2）Selector背景选择器</br>
 （3）底部菜单的几种实现方式</br>
+
+![image](https://github.com/foochane/CaiNiaoShop/blob/master/Screenshot/FragmentTabHost.png)
+![image](https://github.com/foochane/CaiNiaoShop/blob/master/Screenshot/FragmentTabHost.png)
